@@ -13,5 +13,7 @@ build-backend = "setuptools.build_meta"
 [dependency-groups]
 dev = [
     "black>=26.1.0",
+    "mypy>=1.19.1",
+    "pytest>=9.0.2",
     "ruff>=0.15",
 ]

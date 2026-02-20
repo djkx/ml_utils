@@ -1,3 +1,16 @@
+[project]
+name = "ml_utils"
+version = "0.1.0"
+description = "Machine learning utilities package"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15",
+]

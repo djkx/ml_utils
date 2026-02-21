@@ -12,6 +12,7 @@ dependencies = [
     "pytest>=9.0.2",
     "pytest-cov>=7.0.0",
     "ruff>=0.15.2",
+    "setuptools>=82.0.0",
 ]
 
 [build-system]

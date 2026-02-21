@@ -182,9 +182,7 @@ wheels = [
 name = "ml-utils"
 version = "0.1.0"
 source = { editable = "." }
-
-[package.dev-dependencies]
-dev = [
+dependencies = [
     { name = "black" },
     { name = "mypy" },
     { name = "pre-commit" },
@@ -193,15 +191,16 @@ dev = [
 ]
 
 [package.metadata]
-
-[package.metadata.requires-dev]
-dev = [
+requires-dist = [
     { name = "black", specifier = ">=26.1.0" },
     { name = "mypy", specifier = ">=1.19.1" },
     { name = "pre-commit", specifier = ">=4.5.1" },
     { name = "pytest", specifier = ">=9.0.2" },
-    { name = "ruff", specifier = ">=0.15" },
+    { name = "ruff", specifier = ">=0.15.2" },
 ]
+
+[package.metadata.requires-dev]
+dev = []
 
 [[package]]
 name = "mypy"
